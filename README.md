@@ -1,7 +1,7 @@
-WinSSHFS
+# WinSSHFS
 ========================
 
-Fork of Martin Dimov's WinSSHFS project. Removes the GUI, exposes clean library interface, adds a CLI.
+Fork of Masaeedu's CLI only Fork of Martin Dimov's WinSSHFS project. Removes the GUI, exposes clean library interface, adds a CLI.
 
 CLI usage is:
 
@@ -31,6 +31,13 @@ Copyright c  2017
   --version             Display version information.
 
 ```
+### Getting this Fork
+Starting work on this fork. See plans below. If you would like a working build now you can visit Masaeedu's Fork release page [here](https://github.com/masaeedu/win-sshfs/releases/latest)
+~~Builds can be found on the [releases page](https://github.com/sparkx120/win-sshfs/releases/latest)~~
 
-Builds can be found on the [releases page](https://github.com/masaeedu/win-sshfs/releases/latest)
+### Plans
 
+- [ ] Add background option to run a new sshfs connection as a service or background command in powershell
+- [ ] Add support for auto reconnect without disabling the drive when network changes
+- [ ] Stability and Performance improvements
+- [ ] Eventual support of the Dockan 2.0.x library (when it is no longer beta)
