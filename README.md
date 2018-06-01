@@ -1,5 +1,4 @@
 # WinSSHFS
-========================
 
 Fork of Masaeedu's CLI only Fork of Martin Dimov's WinSSHFS project. Removes the GUI, exposes clean library interface, adds a CLI.
 
